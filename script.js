@@ -18,6 +18,7 @@ function checkForPalindrome() {
     }
 }
 
+// To print the result
 function printResult() {
     let correctInput = inputText.value;
     let refinedInput = correctInput.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
