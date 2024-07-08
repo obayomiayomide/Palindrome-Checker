@@ -16,6 +16,7 @@ body {
 
 .palindrome-box {
     min-width: 40%;
+    max-width: 80%;
     background-color: white;
     text-align: center;
     padding: 20px;
@@ -47,5 +48,5 @@ button {
     border: none;
     border-radius: 7px;
     font-family: "Open Sans", sans-serif;
-    color: bisque;
+    color: white;
 }
