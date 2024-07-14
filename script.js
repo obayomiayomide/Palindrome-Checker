@@ -23,6 +23,6 @@ function printResult() {
     let correctInput = inputText.value;
     let refinedInput = correctInput.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
     let reversedRefinedInput = [...refinedInput].reverse().join("");
-    let hi = `<strong>${correctInput}</strong> ${refinedInput === reversedRefinedInput ? "is" : "is not"} a palindrome.`;
-    outputText.innerHTML = hi;
+    let print = `<strong>${correctInput}</strong> ${refinedInput === reversedRefinedInput ? "is" : "is not"} a palindrome.`;
+    outputText.innerHTML = print;
 }
